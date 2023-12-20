@@ -7,7 +7,7 @@ const cors = require("cors");
 // const multer = require("multer");
 // const morgan = require("morgan");
 const app = express();
-const port = 8000;
+const port = 8080;
 app.use(cors());
 
 //store image
