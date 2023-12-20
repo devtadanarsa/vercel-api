@@ -1,11 +1,9 @@
 const Pool = require("pg").Pool;
 
+const connectionString = "postgresql://postgres:d5Bb24FfeGaFGdG2FF4a*Fbce1G1dB6a@monorail.proxy.rlwy.net:15125/railway";
+
 const pool = new Pool({
-  user: "devtadanarsa",
-  host: "localhost",
-  database: "dacourse",
-  password: "test",
-  port: 5432,
+  connectionString,
 });
 
 module.exports = pool;
